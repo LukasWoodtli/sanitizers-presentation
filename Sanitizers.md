@@ -1,0 +1,27 @@
+# Meetup Sanitizers  
+  
+- Introduction of myself  
+- What are sanitizers  
+    - clang/gcc  
+    - difference to valgrind  
+- History  
+- Which sanitizers exist  
+    - Leak  
+    - Address  
+    - Thread  
+    - Undefined  
+    - Memory  
+    - Realtime  
+    - Kernel  
+    - …  
+- Demos:  
+    - Leak/address  
+    - Kernel  
+    - Thread  
+    - Undefined  
+    - Realtime?  
+- Combination  
+- Zephyr (& demo)  
+- lld/LD_PRELOAD  
+- Rust (& demo)  
+- Fix leak with AI  
