@@ -1,0 +1,118 @@
+<title>Sanitizers in GCC and Clang</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/theme/black.css">
+
+<div class="reveal">
+  <div class="slides">
+
+    <section>
+      <h2>Sanitizers in GCC and Clang</h2>
+      <p>TODO: your name / meetup name / date</p>
+      <aside class="notes">
+        Welcome the audience. State the talk length and what they will get out of it.
+      </aside>
+    </section>
+
+    <section>
+      <h2>Who am I</h2>
+      <p>TODO: short bio, relevant background</p>
+      <aside class="notes">
+        Keep this to 1 minute. Mention why you care about sanitizers.
+      </aside>
+    </section>
+
+    <section>
+      <h2>What are sanitizers</h2>
+      <p>TODO: one-line definition (compile-time instrumentation)</p>
+      <p>TODO: GCC and Clang support</p>
+      <p>TODO: contrast with Valgrind (dynamic binary analysis, higher runtime overhead)</p>
+      <aside class="notes">
+        Audience is embedded devs who already know memory bugs. Skip basics, focus on the
+        instrumentation-at-compile-time idea and why that matters for runtime overhead.
+      </aside>
+    </section>
+
+    <section>
+      <h2>A short history</h2>
+      <p>TODO: origin at Google, upstreamed into GCC/Clang, rough timeline</p>
+      <aside class="notes">
+        Keep this to one slide, one minute. Just a mention, no deep dive.
+      </aside>
+    </section>
+
+    <section>
+      <h2>The sanitizer landscape</h2>
+      <ul>
+        <li>TODO: AddressSanitizer (ASan) — one line</li>
+        <li>TODO: LeakSanitizer (LSan) — one line</li>
+        <li>TODO: ThreadSanitizer (TSan) — one line</li>
+        <li>TODO: UndefinedBehaviorSanitizer (UBSan) — one line</li>
+        <li>TODO: MemorySanitizer (MSan) — one line</li>
+        <li>TODO: RealtimeSanitizer — one line</li>
+        <li>TODO: KernelAddressSanitizer (KASan) — one line</li>
+      </ul>
+      <aside class="notes">
+        Fast overview, roughly 2-3 minutes total. Do not explain any of these in depth yet,
+        the demos cover ASan, KASan, and UBSan in detail.
+      </aside>
+    </section>
+
+    <section>
+      <h2>Demo: AddressSanitizer</h2>
+      <p>TODO: placeholder for buffer overflow / use-after-free example</p>
+      <p>TODO: placeholder for terminal / code screenshot</p>
+      <aside class="notes">
+        Flagship demo, aim for 5 minutes. Use a pre-built example, do not live-code from
+        scratch to stay on time.
+      </aside>
+    </section>
+
+    <section>
+      <h2>Demo: KernelAddressSanitizer (KASan)</h2>
+      <p>TODO: placeholder for kernel-space memory bug example</p>
+      <p>TODO: placeholder for terminal / log output</p>
+      <aside class="notes">
+        Aim for 5 minutes. Relevant to this embedded audience. Use a pre-built example.
+      </aside>
+    </section>
+
+    <section>
+      <h2>Demo: Zephyr and UBSan</h2>
+      <p>TODO: placeholder for undefined behavior example on Zephyr RTOS</p>
+      <p>TODO: placeholder for terminal / log output</p>
+      <aside class="notes">
+        Aim for 5 minutes. Ties sanitizers directly to the embedded RTOS world. Use a
+        pre-built example.
+      </aside>
+    </section>
+
+    <section>
+      <h2>A few more things worth knowing</h2>
+      <ul>
+        <li>TODO: combining sanitizers in one build</li>
+        <li>TODO: lld / LD_PRELOAD trick</li>
+        <li>TODO: Rust sanitizer support</li>
+        <li>TODO: fixed a real leak with help from AI</li>
+      </ul>
+      <aside class="notes">
+        Rapid-fire, 2-3 minutes total. One sentence each, no demos here.
+      </aside>
+    </section>
+
+    <section>
+      <h2>Wrap-up</h2>
+      <p>TODO: key takeaway</p>
+      <p>TODO: links / slides / contact</p>
+      <p>Questions?</p>
+      <aside class="notes">
+        Leave 1-2 minutes for questions.
+      </aside>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/reveal.js@5/dist/reveal.js"></script>
+<script>
+  Reveal.initialize({ hash: true, slideNumber: true });
+</script>
